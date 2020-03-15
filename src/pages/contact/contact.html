@@ -1,0 +1,95 @@
+<ion-header>
+  <ul class="navlist" >
+    <li  [class.first]="isActive==0" (click)="isClick(0)">推荐</li>
+    <li  [class.first]="isActive==1" (click)="isClick(1)">关注</li>
+    <li  [class.first]="isActive==2" (click)="isClick(2)">直播</li>
+  </ul>
+</ion-header>
+<ion-content>
+<div [ngSwitch]="isActive">
+  <div *ngSwitchCase="0">
+  <ul class="tiezi">
+    <li>
+      <div (click)="gotiezi1()">
+      <img src="assets/imgs/005.jpg" alt="">
+      <p>
+        游一处风景，寻一处特色；见一处特色，悟一片心得。江南的绮丽.....
+      </p>
+      <span ><img src="assets/imgs/touxiang.png" alt="" class="touxiang"><span class="name">哈哈 </span><span class="text">  <ion-icon name="ios-heart"  (click)="Zan1()"  id="heart1" ></ion-icon>{{shuzi1}}</span></span>
+    </div>
+    </li>
+    <li>
+      <div (click)="gotiezi()">
+      <img src="assets/imgs/010.jpg" alt="">
+      <p>
+        Day1:天津站-世纪钟-解放桥-金鸿广场-滨海步行街-恒隆广场
+      </p>
+      </div>
+      <span ><img src="assets/imgs/touxiang.png" alt="" class="touxiang"><span class="name">哈哈</span> <span class="text"> <ion-icon name="ios-heart"  (click)="Zan2()"  id="heart2" ></ion-icon>{{shuzi2}}</span></span>
+     
+    </li>
+    <li>
+      <div (click)="gotiezi1()">
+      <img src="assets/imgs/005.jpg" alt="">
+      <p>
+        游一处风景，寻一处特色；见一处特色，悟一片心得。江南的绮丽.....
+      </p>
+      <span ><img src="assets/imgs/touxiang.png" alt="" class="touxiang"><span class="name">哈哈 </span><span class="text"> <ion-icon name="ios-heart"  (click)="Zan3()"  id="heart3" ></ion-icon>{{shuzi3}}</span></span>
+      </div>
+    </li>
+    <li>
+      <div (click)="gotiezi1()">
+      <img src="assets/imgs/004.jpg" alt="">
+      <p>
+        游一处风景，寻一处特色；见一处特色，悟一片心得。江南的绮丽.....
+      </p>
+      <span><img src="assets/imgs/touxiang.png" alt="" class="touxiang"><span class="name">哈哈 </span> <span class="text"><ion-icon name="ios-heart"  (click)="Zan4()"  id="heart4" ></ion-icon>{{shuzi4}}</span></span>
+      </div>
+    </li>
+  </ul>
+  </div>
+  <div *ngSwitchCase="1">
+    <span >
+    <img src="assets/imgs/touxiang.png" alt="" class="touxiang"> 哈哈
+    </span>
+    <span class="rig"><ion-icon name="ios-menu-outline"></ion-icon>私信</span>
+    <img src="assets/imgs/010.jpg" alt=""  class="img1">
+    <p>Day1:天津站-世纪钟-解放桥-金鸿广场-滨海步行街-恒隆广场</p>
+    <p> Day2:鼓楼-古文化街-意大利风情街</p>
+    <span class="rig">
+      <ion-icon ios="ios-heart" md="md-heart"(click)="dianzan()" id="xin"></ion-icon>{{zanshu}}
+      <ion-icon ios="ios-star" md="md-star" (click)="shoucang()" id="xing"></ion-icon>{{shoushu}}
+      <ion-icon name="ios-text-outline"></ion-icon>45
+    </span>
+    <div class="pinglun">
+      <p>晓楠：有没有和我一样看完就忘的人....</p>
+      <p>共45条评论</p>
+    </div>
+  </div>
+  <div *ngSwitchCase="2">
+    <ul class="list">
+      <li>
+        <img src="assets/imgs/027-02(1).jpg" alt="">
+        <div class="tag">分享</div>
+        <p>1015</p>
+      </li>
+      <li>
+        <img src="assets/imgs/027-01.jpg" alt="">
+        <div class="tag">美食</div>
+        <p>41600</p>
+      </li>
+      <li>
+          <img src="assets/imgs/029.jpg" alt="">
+          <div class="tag">风景</div>
+          <p>10040</p>
+      </li>
+      <li>
+          <img src="assets/imgs/031_01.png" alt="">
+          <div class="tag">心情</div>
+          <p>8012</p>
+      </li>
+    </ul>
+  </div>
+</div>
+</ion-content>
+

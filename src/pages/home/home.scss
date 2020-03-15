@@ -1,0 +1,52 @@
+page-home {
+    .top{
+        margin-top:1.5rem;
+        margin-left:1rem;
+        height: 4rem;
+        .ion{
+            margin-top:1.5rem;
+        }
+        .ion2{
+            left: 3rem;
+            top:0.1rem;
+            position: relative;
+            color:rgba(0,0,0,0.8);
+            font-size: 2.5rem;
+        }
+        .search{
+            position: absolute;
+            width: 24rem;
+            margin-top: 1.2rem;
+            margin-left: 0.5rem;
+            height: 3rem;
+            text-align: center;
+            -moz-border-radius: 11px;
+            -khtml-border-radius: 11px;
+            -webkit-border-radius: 11px;
+            border: none;
+            border-radius: 15px;
+            background-color: rgba(0,0,0,0.1);
+        }
+    }
+    .bot{
+        margin-left: -3rem;
+        padding: 0;
+        img{
+            width:100%;
+        }
+        li{
+            position: relative;
+            p{
+                    position: absolute;
+                    width: 100%;
+                    top:5rem;
+                    font-size: 3rem;
+                    margin-top: 2rem;
+                    margin-left: 1rem;
+                    color: #fff;
+                    height: 3rem;
+                    line-height: 3.5rem;
+        }
+    }
+}
+}

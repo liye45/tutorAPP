@@ -1,0 +1,156 @@
+page-three {
+    .top{
+        position: absolute;
+    }
+   .top1{
+       position: relative;
+       margin-top: -20rem;
+       margin-left: 1rem;
+       font-size: 2.5rem;
+   }
+   .top2{
+    position: relative;
+    width: 20rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+        .ion1{
+        position: relative;
+        color:black;
+        left: 5.5rem;
+        top:0.5rem;
+        font-size: 2.2rem;
+        }
+        .search{
+        position: absolute;
+        height: 3rem;
+        left: 5rem;
+        width: 20rem;
+        text-align: center;
+        -moz-border-radius: 11px;
+        -khtml-border-radius: 11px;
+        -webkit-border-radius: 11px;
+        border: none;
+        border-radius: 15px;
+        background-color: rgba(255,255,255,0.6);
+    }
+}
+   .bot{
+    margin-top: 22rem;
+    }
+    .bot1{
+        position: relative;
+        top: 3rem;
+        height: 2.5rem;
+        p{
+            float: left;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            padding-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        .rig{
+            float: right;
+            margin-top: 0.5rem;
+            margin-right: 1rem;
+        }
+    }
+        
+        .places{
+            position: relative;
+            top: 2rem;
+            padding: 0;
+            margin-top: 0.5rem;
+            li{
+                position: relative;
+                width: 45%;
+                float: left;
+                margin:0.3rem 0 1rem 3%;
+               
+            }
+            img{
+                width: 100%;
+                height: 10rem;
+                border-radius: 15%;
+            }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom: 3rem;
+                margin: 0;
+                color: #fff;
+                height: 4rem;
+                line-height: 4rem;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+            }
+        .miyue{
+            li{
+                height: 6rem;
+                position: relative;
+            }
+            .img1{
+                width: 51%;
+                margin-left: -4rem;
+                margin-top: 3rem;
+                float: left;
+                
+            }
+            .img2{
+                width: 50%;
+                height: 2rem;
+                margin-top: 3rem;
+                padding-left: 1rem;
+                float: left;
+            }
+            .img3{
+                width: 50%;
+                height: 2rem;
+                margin-top: 3rem;
+                padding-left: 1rem;
+                float: left;
+                margin-left: 4rem;
+            }
+            .title{
+                font-weight:bolder;
+            }
+            img{
+                border-radius: 12%;
+                }
+          
+        }
+        .bot2{
+            position: relative;
+            top: 2rem;
+            height: 2.5rem;
+            p{
+                float: left;
+                height: 0.8rem;
+                line-height: 0.8rem;
+                padding-left: 1.5rem;
+                margin-top: 0.5rem;
+            }
+            .rig{
+                float: right;
+                margin-top: 0.5rem;
+                margin-right: 1rem;
+            }
+        }
+        .slide-box{
+            margin-top: 24rem;
+            margin-right: 1rem;
+            display: -webkit-box;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling:touch;
+        }
+        .slide-item{
+            padding-left: 1rem;
+            width:16rem;
+            img{
+                border-radius: 12%;
+            }
+            .title{
+                font-weight: bold;
+            }
+        }
+}

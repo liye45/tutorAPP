@@ -1,0 +1,119 @@
+page-search {
+    .top1{
+        font-size: 3rem;
+        color: rgba(0,0,0,0.7);
+        margin-top:1rem;
+        margin-left: 0.5rem;
+    }
+  
+    .top2{
+        margin-top:-3.5rem;
+        margin-left: 4rem;
+        float: left;
+        span{
+            margin-top:-1rem;
+            margin-left: 23rem;
+            float: left;
+            color: rgba(0,0,0,0.7);
+        }
+        .tubiao{
+            position: absolute;
+            left: 4.3rem;
+            top:1.8rem;
+            color:rgba(0,0,0,0.8);
+        }
+
+        .search{
+            position: absolute;
+            top: 1rem;
+            width: 20rem;
+            margin-top: 0.4rem;
+            height: 2.5rem;
+            text-align: center;
+            -moz-border-radius: 11px;
+            -khtml-border-radius: 11px;
+            -webkit-border-radius: 11px;
+            border: none;
+            border-radius: 15px;
+            background-color: rgba(0,0,0,0.1);
+        }
+        .text{
+            position: absolute;
+            top: 2.6rem;
+            right:8rem;
+        }
+    }
+    p{
+        color:rgba(0,0,0,0.6);
+    }
+    ul{
+        li{
+            float:left;
+            width:4rem;
+            height: 2rem;
+            line-height: 2rem;
+            text-align: center;
+            
+            background-color: rgba(230, 31, 31, 0.2);
+            margin: 0rem 1rem 1rem 1rem;
+        }
+    }
+    #su{
+        width: 4rem;
+        height: 2.5rem;
+    }
+    .zhuce{
+        position: relative;
+        top: 3rem;
+    
+    }
+    // ion-header{
+    //     ion-navbar{
+    //         #back{
+    //             line-height: 50px;
+    //             font-size: 1.3em
+    //         }
+    //     }
+    // }
+    // ion-content{
+    //     background-size: 100% 100%;
+    //     ul{
+    //         list-style: none;
+    //         padding: 0px;
+    //         li{
+    //             float: left;  
+    //             margin-top: 2%;
+    //             #left{
+    //                 width: 30%;
+    //                 height: 100px !important;
+    //                 float: left;
+    //                 img{
+    //                     width: 100%;
+    //                     height: 100%;
+    //                 }
+    //             }
+    //             #right{
+    //                 width: 70%;
+    //                 float: left;  
+    //                 #title{
+    //                     font-size: 16px;
+    //                     padding-left: 5px;
+    //                     margin-top: 5px;
+    //                     line-height: 26px;
+    //                 }
+    //                 #content{
+    //                     padding-left: 5px;
+    //                     text-indent: 1em;
+    //                     line-height: 25px;
+    //                     overflow: hidden;
+    //                     text-overflow: ellipsis;
+    //                     display: -webkit-box;
+    //                     -webkit-line-clamp: 3; /* 这个表示要显示几行 */
+    //                     -webkit-box-orient: vertical;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+}

@@ -1,0 +1,118 @@
+page-yemian {
+    .nav{
+        .navimg{
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .return{
+            position: absolute ;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            top: 2.4rem;
+            left: 1rem;
+        }
+        .name{
+            position: relative;
+            color: white;
+            font-size: 2rem;
+            position: absolute;
+            top: 2rem;
+            left: 3rem;
+
+        }
+        .top1{
+            position: absolute;
+            width: 20rem;
+            top: 2rem;
+            left: 5rem;
+                .ion1{
+                position: relative;
+                color:black;
+                left: 6.5rem;
+                top:0.5rem;
+                font-size: 2.2rem;
+                }
+                .search{
+                position:  absolute;
+                height: 3rem;
+                left: 6rem;
+                width: 20rem;
+                text-align: center;
+                -moz-border-radius: 11px;
+                -khtml-border-radius: 11px;
+                -webkit-border-radius: 11px;
+                border: none;
+                border-radius: 15px;
+                background-color: rgba(255,255,255,0.6);
+            }
+        }
+    }
+    .zhinan{
+        .top2{
+            font-size: 2rem;
+            position: relative;
+            top: -1.5rem;
+
+        }
+        .allimg1{
+            padding-left: 0!important;
+            position: relative;
+            img{
+                width: 100%;
+            }
+            li{
+             position: relative;
+             width: 30%;
+             float: left;
+             margin: -1rem 0 4rem 3%;
+             height: 10rem;
+            }
+            p{
+                margin-top: -0.5rem;
+                text-align: center;
+            }
+            .miaoshu{
+                font-weight: bold;
+            }
+           
+         
+    }
+    }
+    .tiyan{
+        .top3{
+            font-size: 2rem;
+        }
+        .ti1{
+            width: 70%;
+        }
+        .ti2{
+            width: 30%;
+            position: absolute;
+            top: 58rem;
+            height: 14%;
+        }
+        .ti3{
+            width: 30%;
+            position: absolute;
+            top: 66.5rem;
+        }
+        .slide-box{
+            // margin-top: 5rem;
+            margin-right: 1rem;
+            display: -webkit-box;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling:touch;
+        }
+        .slide-item{
+            padding-left: 1rem;
+            margin-right: 1rem;
+            width:16rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}

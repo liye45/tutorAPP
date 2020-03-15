@@ -1,0 +1,104 @@
+page-contact {
+        html{font-size: 100px;
+        text-align: center;}
+        .navlist{
+            background-color: #009688;  
+            padding-left: 0!important;
+            margin: 0;
+            height: 4.4rem;
+            line-height: 4.4rem;
+            color: aliceblue;
+            .first{
+                border-bottom: solid 0.2px yellow;
+            }
+            li{
+                text-align: center;
+                width: 33%;
+                height: 4.4rem;
+            }
+        }
+        .tiezi{
+            padding:0;
+            img{
+                width: 100%;
+                height: 19rem;
+                border-radius: 10%;
+            }
+            li{
+                border: solid 1px 	#C0C0C0;
+                width: 45%;
+                float: left;
+                margin: 0.3rem 0 0.3rem 3%;
+                border-radius: 10%;
+            }
+            .touxiang{
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50%;
+            }
+            .name{
+                position: relative;
+                bottom: 0.4rem;
+                left: 0.6rem;
+            }
+            .text{
+                position: relative;
+                left: 5rem;
+            }
+            // #heart{
+            //     color: white;
+            //     border: black
+        
+            // }
+        }
+        .touxiang{
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+        }
+        .rig{
+            margin-top: 1.5rem;
+            float: right;
+        }
+        .pinglun{
+            background-color:#D1D0CE;
+            margin-top:4.3rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        .img1{
+            width: 95%;
+            margin:1rem;
+        }
+        p{
+            text-indent:5%;
+        }
+        .list{
+            padding: 0;
+            li{
+                width: 45%;
+                float: left;
+                height: 26rem;
+                margin: 0.3rem 0 0.1rem 3%;
+            }
+            .tag{
+               width: 3rem;
+               height: 2rem;
+               border: solid 0.1rem white;
+               position: relative;
+               left: 1.4rem;
+               bottom: 5rem;
+               color: white;
+               border-radius: 22%;
+               background-color:rgba(0,0,0,0.5);
+            }
+            p{
+                position: relative;
+                left: 10.5rem;
+                bottom: 5rem;
+                color: white;
+            }
+        }
+       
+    }
+        

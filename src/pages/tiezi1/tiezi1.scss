@@ -1,0 +1,57 @@
+page-tiezi1 {
+    .return{
+        position: absolute;
+          top: 0.1rem;
+        font-size: 3rem;
+        color: white;
+      }
+      .tiezi{
+          margin-top: -1.8rem;
+          .lef{
+              float: left;
+              .name{
+                  position: relative;
+                  bottom: 0.8rem;
+              }
+              img{
+                  width: 3rem;
+                  height: 3rem;
+                  border-radius: 50%;
+              }
+          }
+          .rig{
+              width: 3.7rem;
+              color: brown;
+              border: solid 1px #c0c0c0;
+              background-color: white;
+              float: right;
+              border-radius: 20%;
+              position: relative;
+              top: 0.6rem;
+          }
+      }
+      .content{
+          margin-top: 3.5rem;
+           border-top: #D1D0CE solid 1px;
+          margin-left: 0;
+          .title{
+              font-weight: bold;
+              margin-left: 0%;
+          }
+          .time{
+              position: relative;
+              top: 5rem;
+              color:#837E7C;
+              float: left;
+              border-bottom:#D1D0CE solid 1px;
+              .about{
+                  position: relative;
+                  left: 8rem;
+                  border-bottom:#D1D0CE solid 1px;
+              }
+          }
+      .rig{
+          float: right;
+      }
+      }
+}

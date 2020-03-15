@@ -1,0 +1,129 @@
+page-one {
+    .top{
+        position: absolute;
+    }
+   .top1{
+       position: relative;
+       margin-top: -20rem;
+       margin-left: 1rem;
+       font-size: 2.5rem;
+   }
+   .top2{
+    position: relative;
+    width: 20rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+        .ion1{
+        position: relative;
+        color:black;
+        left: 5.5rem;
+        top:0.5rem;
+        font-size: 2.2rem;
+        }
+        .search{
+        position: absolute;
+        height: 3rem;
+        left: 5rem;
+        width: 20rem;
+        text-align: center;
+        -moz-border-radius: 11px;
+        -khtml-border-radius: 11px;
+        -webkit-border-radius: 11px;
+        border: none;
+        border-radius: 15px;
+        background-color: rgba(255,255,255,0.6);
+    }
+}
+   .wenzi1{
+       margin-top: 20rem;
+       float: left;
+   }
+   .wenzi2{
+       position: relative;
+       right: -3rem;
+       margin-top: 20rem;
+       float: left;
+       margin-left: 17.6rem;
+   }
+   .remen{
+    padding-left: 0!important;
+    position: relative;
+    left: 4.7rem;
+       img{
+           width: 100%;
+       }
+       li{
+        position: relative;
+        width: 20%;
+        float: left;
+        p{
+            position: absolute;
+            width: 100%;
+            top:5rem;
+            font-size: 1.5rem;
+            margin-top: -3.5rem;
+            color:#ffff;
+            height: 4rem;
+            line-height: 4rem;
+        }
+       }
+       .remen1{
+           margin-left: -4rem;
+           margin-top: 1.5rem;
+           border-radius: 50%;
+           height: 5rem;
+       }
+       .remen2{
+        margin-left: -3rem;
+        margin-top: 1.5rem;
+        border-radius: 50%;
+        height: 5rem;
+        }
+        .remen3{
+            margin-left: -2rem;
+            margin-top: 1.5rem;
+            border-radius: 50%;
+            height: 5rem;
+        }
+        .remen4{
+            margin-left: -1rem;
+            margin-top: 1.5rem;
+            border-radius: 50%;
+            height: 5rem;
+        }
+   }
+    .wenzi3{
+        // position: relative;
+        // left: -2rem;
+        // margin-top: 2rem;
+        // // float: left;
+        position: absolute;
+        left: 2rem;
+        top:33.5rem
+    }
+    .wenzi4{
+        position: relative;
+        right: -5.8rem;
+        margin-top: 2rem;
+        float: left;
+        margin-left: 20rem;
+    }
+    .wenzi5{
+        position: absolute;
+        top: 52rem;
+        left: 2rem;
+    }
+    .beijing{
+        padding:0;
+        img{
+            width:100%;
+            border-radius: 15%;
+        }
+        li{
+            position: relative;
+            width: 40%;
+            float: left;
+            margin:1rem 1rem 0 2%;
+        }
+    }
+}

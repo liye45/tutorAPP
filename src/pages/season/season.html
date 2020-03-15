@@ -1,0 +1,42 @@
+<!--
+  Generated template for the SeasonPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content >
+  <div class="nav" >
+      <!-- <ion-slides class="navimg" >
+          <ion-slide>
+              <img src="{{navpic1}}" >
+          </ion-slide>
+          <ion-slide>
+              <img src="{{navpic2}}">
+          </ion-slide>
+          <ion-slide>
+              <img src="{{navpic3}}">
+          </ion-slide>
+          <ion-slide>
+            <img src="{{navpic4}}">
+        </ion-slide>
+        </ion-slides> -->
+        <img src="{{navpic1}}" alt="">
+        <div class="top1"><ion-icon name="ios-arrow-back" (click)="close()"></ion-icon></div>
+  </div>
+  <div class="content">
+    <h3>{{name}}</h3>
+   <p>{{content1}}</p>
+   <p>{{content2}}</p>
+  </div>
+  <div>
+    <h3>周边推荐</h3>
+    <ul class="list">
+      <li><img src="{{pic1}}" alt=""><p>{{spot1}}</p></li>
+      <li><img src="{{pic2}}" alt=""><p>{{spot2}}</p></li>
+      <li><img src="{{pic3}}" alt=""><p>{{spot3}}</p></li>
+      <li><img src="{{pic4}}" alt=""><p>{{spot4}}</p></li>
+      <li><img src="{{pic5}}" alt=""><p>{{spot5}}</p></li>
+      <li><img src="{{pic6}}" alt=""><p>{{spot6}}</p></li>
+    </ul>
+  </div>
+</ion-content>

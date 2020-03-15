@@ -1,0 +1,56 @@
+<!--
+  Generated template for the TwoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+  <div class="top">
+    <img src="assets/imgs/017.jpg" alt="">
+    <div class="top1"><ion-icon name="ios-arrow-back" (click)="close()"></ion-icon></div>
+    <div class="top2">
+        <ion-icon name="md-search" class="ion1"></ion-icon>
+        <input type="search" placeholder="搜索城市" class="search"  (click)="pushSearch()">
+    </div>
+  </div>
+  <div class="bot">
+    <div class="bot1">
+      <ion-icon name="md-snow" class="ion"></ion-icon>
+      <p>这里的雪季更惊艳</p>
+    </div>
+    <div class="slide-box">
+      <div class="slide-item">
+        <img src="assets/imgs/040.jpg" alt="">
+        <p (click)="go($event)">长白山：天池雪季</p>
+      </div>
+      <div class="slide-item">
+        <img src="assets/imgs/039.jpg" alt="">
+        <p (click)="go($event)">阿尔山：雪中秘境</p>
+      </div>
+      <div class="slide-item">
+        <img src="assets/imgs/041.jpg" alt="">
+        <p (click)="go($event)">哈尔滨：冰雪大世界</p>
+      </div>
+    </div>
+    <div class="bot2">
+        <ion-icon name="ios-leaf" class="ion2"></ion-icon>
+        <p>温泉之旅</p>
+    </div>
+    <div class="slide-box">
+        <div class="slide-item">
+          <img src="assets/imgs/042.jpg" alt="">
+          <p (click)="go($event)">西安：特色温泉</p>
+        </div>
+        <div class="slide-item">
+          <img src="assets/imgs/043.jpg" alt="">
+          <p  (click)="go($event)">峨眉山：冰雪温泉</p>
+        </div>
+        <div class="slide-item">
+          <img src="assets/imgs/044.jpg" alt="">
+          <p  (click)="go($event)">莫干山：竹林温泉</p>
+        </div>
+    </div>
+
+  </div>
+
+</ion-content>

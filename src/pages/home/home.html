@@ -1,0 +1,24 @@
+<ion-content>
+  <div class="top">
+    <ion-icon ios="ios-pin" md="md-pin" class="ion"></ion-icon>{{localCityName}}
+    <ion-icon name="md-search" class="ion2"></ion-icon>
+    <input type="search" placeholder="搜你想去的" class="search"  (click)="pushSearch()">
+  </div>
+  <ul class="bot">
+    <li (click)="push()">
+      <img src="assets/imgs/001.jpg" style="display:block;">
+      <p text-center>热门城市</p>
+      <p text-center style="font-size:2rem;margin-top:4rem;">Hot City</p>
+    </li>
+    <li (click)="pushTwo()">
+      <img src="assets/imgs/002.jpg" style="display:block;">
+      <p text-center>本季游</p>
+      <p text-center style="font-size:2rem;margin-top:4rem;">Season</p>
+    </li>
+    <li (click)="pushThree()">
+      <img src="assets/imgs/003.jpg" style="display:block;">
+      <p text-center>主题游</p>
+      <p text-center style="font-size:2rem;margin-top:4rem;">Toptic</p>
+    </li>
+  </ul>
+</ion-content>

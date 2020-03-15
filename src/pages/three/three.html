@@ -1,0 +1,52 @@
+<!--
+  Generated template for the ThreePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+  <div class="top">
+    <img src="assets/imgs/004.jpg" alt="">
+    <div class="top1"><ion-icon name="ios-arrow-back" (click)="close()"></ion-icon></div>
+    <div class="top2">
+      <ion-icon name="md-search" class="ion1"></ion-icon>
+      <input type="search" placeholder="搜索城市" class="search"  (click)="pushSearch()">
+  </div>
+  </div>
+
+  <div class="bot">
+    <div class="bot1">
+      <p>亲子游</p>
+      <span class="rig"><ion-icon name="ios-arrow-forward"></ion-icon></span>
+    </div>
+  <ul class="places">
+    <li (click)="go($event)"><img src="assets/imgs/028.jpg" alt=""><p>——<span>上海</span>——</p></li>
+    <li (click)="go($event)"><img src="assets/imgs/006.jpg" alt=""><p>——<span>香港</span>——</p></li>
+    <li (click)="go($event)"><img src="assets/imgs/024.jpg" alt=""><p>——<span>北京</span>——</p></li>
+    <li (click)="go($event)"><img src="assets/imgs/001.jpg" alt=""><p>——<span>青岛</span>——</p></li>
+  </ul>
+
+    <div class="bot2">
+      <p>蜜月游</p>
+      <span class="rig"><ion-icon name="ios-arrow-forward"></ion-icon></span>
+    </div>
+    <div class="slide-box">
+        <div class="slide-item">
+          <img src="assets/imgs/035.jpg" alt="" value="海南">
+          <p class="title"  (click)="goto($event)">海南</p>
+          <p>想和你去天涯海角</p>
+        </div>
+        <div class="slide-item">
+          <img src="assets/imgs/028.jpg" alt="">
+          <p class="title"  (click)="goto($event)">日本</p>
+          <p>一起去看樱花吧</p>
+        </div>
+        <div class="slide-item">
+          <img src="assets/imgs/029-01.jpg" alt="">
+          <p class="title"  (click)="goto($event)">圣托里尼</p>
+          <p>在蓝色的屋顶上吹吹海风</p>
+        </div>
+    </div>
+</div>
+</ion-content>
+
